@@ -14,7 +14,7 @@ const PasswordRevealer = ({ value }) => {
   };
 
   return (
-    <div className="pass-wrapper">
+    <div className="pass-wrapper" data-testid="password-revealer">
       <input
         className="pass-wrapper__input"
         placeholder="Password"
